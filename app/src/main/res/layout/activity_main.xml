@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aaron.evangelismapp.MainActivity">
+
+    <!-- Sin TextView with black background -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainScreenTextViewHeight"
+        android:text="@string/sinText"
+        style="@style/sinTextViewStyle"/>
+
+    <!-- Blood TextView with red background -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainScreenTextViewHeight"
+        android:text="@string/bloodText"
+        style="@style/bloodTextViewStyle"/>
+
+    <!-- Baptism TextView with blue background -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainScreenTextViewHeight"
+        android:text="@string/baptismText"
+        style="@style/baptismTextViewStyle"/>
+
+    <!-- Cleansing TextView with white background -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainScreenTextViewHeight"
+        android:text="@string/cleansingText"
+        style="@style/cleansingTextViewStyle"/>
+
+    <!-- Growth TextView with green background -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainScreenTextViewHeight"
+        android:text="@string/growthText"
+        style="@style/growthTextViewStyle"/>
+
+    <!-- Heaven TextView with yellow background -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainScreenTextViewHeight"
+        android:text="@string/heavenText"
+        style="@style/heavenTextViewStyle"
+        />
+</LinearLayout>

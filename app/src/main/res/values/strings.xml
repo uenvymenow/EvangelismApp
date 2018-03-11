@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Evangelism App</string>
+
+    <!-- Main TextViews -->
+    <string name="sinText">Sin</string>
+    <string name="bloodText">Blood</string>
+    <string name="baptismText">Baptism</string>
+    <string name="cleansingText">Cleansing</string>
+    <string name="growthText">Growth</string>
+    <string name="heavenText">Heaven</string>
+
+</resources>
