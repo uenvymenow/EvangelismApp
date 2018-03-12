@@ -9,6 +9,7 @@
 
     <!-- Sin TextView with black background -->
     <TextView
+        android:id="@+id/sinTextView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/mainScreenTextViewHeight"
         android:text="@string/sinText"
@@ -16,6 +17,7 @@
 
     <!-- Blood TextView with red background -->
     <TextView
+        android:id="@+id/bloodTextView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/mainScreenTextViewHeight"
         android:text="@string/bloodText"
@@ -23,6 +25,7 @@
 
     <!-- Baptism TextView with blue background -->
     <TextView
+        android:id="@+id/baptismTextView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/mainScreenTextViewHeight"
         android:text="@string/baptismText"
@@ -30,6 +33,7 @@
 
     <!-- Cleansing TextView with white background -->
     <TextView
+        android:id="@+id/cleansingTextView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/mainScreenTextViewHeight"
         android:text="@string/cleansingText"
@@ -37,6 +41,7 @@
 
     <!-- Growth TextView with green background -->
     <TextView
+        android:id="@+id/growthTextView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/mainScreenTextViewHeight"
         android:text="@string/growthText"
@@ -44,6 +49,7 @@
 
     <!-- Heaven TextView with yellow background -->
     <TextView
+        android:id="@+id/heavenTextView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/mainScreenTextViewHeight"
         android:text="@string/heavenText"
