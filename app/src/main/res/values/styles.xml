@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Sin TextView Styling -->
+    <!-- Sin MainActivity TextView Styling -->
     <style name="sinTextViewStyle">
         <item name="android:paddingLeft">8dp</item>
         <item name="android:background">#000000</item>
@@ -18,7 +18,7 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <!-- Blood TextView Styling -->
+    <!-- Blood MainActivity TextView Styling -->
     <style name="bloodTextViewStyle">
         <item name="android:paddingLeft">8dp</item>
         <item name="android:background">#FF0000</item>
@@ -28,7 +28,7 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <!-- Baptism TextView Styling -->
+    <!-- Baptism MainActivity TextView Styling -->
     <style name="baptismTextViewStyle">
         <item name="android:paddingLeft">8dp</item>
         <item name="android:background">#0000FF</item>
@@ -38,7 +38,7 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <!-- Cleansing TextView Styling -->
+    <!-- Cleansing MainActivity TextView Styling -->
     <style name="cleansingTextViewStyle">
         <item name="android:paddingLeft">8dp</item>
         <item name="android:background">#FFFFFF</item>
@@ -48,7 +48,7 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <!-- Growth TextView Styling -->
+    <!-- Growth MainActivity TextView Styling -->
     <style name="growthTextViewStyle">
         <item name="android:paddingLeft">8dp</item>
         <item name="android:background">#008000</item>
@@ -58,7 +58,7 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <!-- Heaven TextView Styling -->
+    <!-- Heaven MainActivity TextView Styling -->
     <style name="heavenTextViewStyle">
         <item name="android:paddingLeft">8dp</item>
         <item name="android:background">#FFFF00</item>
@@ -66,6 +66,19 @@
         <item name="android:gravity">center</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- SinActivity header styling -->
+    <style name="sinHeader">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- SinActivity Scripture Styling -->
+    <style name="sinScripture">
+        <item name="android:gravity">center_horizontal</item>
     </style>
 
 </resources>

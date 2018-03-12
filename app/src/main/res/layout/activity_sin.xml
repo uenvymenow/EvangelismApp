@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.aaron.evangelismapp.SinActivity">
+    tools:context="com.example.aaron.evangelismapp.SinActivity">>
 
-    <TextView
-        android:id="@+id/sinWordTextView"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/sinScriptureTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/sinWordTextView"
+            style="@style/sinHeader"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sinHeader" />
 
-    <ImageView
-        android:id="@+id/sinImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="center"/>
+        <TextView
+            android:id="@+id/sinScriptureTextView"
+            style="@style/sinScripture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-</LinearLayout>
+        <ImageView
+            android:id="@+id/sinImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+</ScrollView>
