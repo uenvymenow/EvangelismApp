@@ -81,4 +81,69 @@
         <item name="android:gravity">center_horizontal</item>
     </style>
 
+    <!-- BloodActivity header styling -->
+    <style name="bloodHeader">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- BloodActivity Scripture Styling -->
+    <style name="bloodScripture">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- CleansingActivity header styling -->
+    <style name="cleansingHeader">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- CleansingActivity Scripture Styling -->
+    <style name="cleansingScripture">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- BaptismActivity header styling -->
+    <style name="baptismHeader">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- BaptismActivity Scripture Styling -->
+    <style name="baptismScripture">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- GrowthActivity header styling -->
+    <style name="growthHeader">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- GrowthActivity Scripture Styling -->
+    <style name="growthScripture">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- HeavenActivity header styling -->
+    <style name="heavenHeader">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- HeavenActivity Scripture Styling -->
+    <style name="heavenScripture">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
 </resources>

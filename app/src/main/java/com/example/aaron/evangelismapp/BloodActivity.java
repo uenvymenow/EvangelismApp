@@ -16,7 +16,7 @@ public class BloodActivity extends AppCompatActivity {
         TextView bloodWord = findViewById(R.id.bloodWordTextView);
 
         // Add the word blood to the textview
-        bloodWord.setText("blood");
+        bloodWord.setText("Blood");
 
         // Locate the bloodScriptureTextView
         TextView bloodScripture = findViewById(R.id.bloodScriptureTextView);

@@ -9,4 +9,8 @@
     <string name="growthText">Growth</string>
     <string name="heavenText">Heaven</string>
 
+    <!-- Button TextViews -->
+    <string name="backText">Back</string>
+    <string name="continueText">Continue</string>
+
 </resources>
