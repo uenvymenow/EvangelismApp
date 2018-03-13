@@ -12,22 +12,22 @@ public class GrowthActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_growth);
 
-        // Locate the SinWordTextView
-        TextView sinWord = findViewById(R.id.growthWordTextView);
+        // Locate the growthWordTextView
+        TextView growthWord = findViewById(R.id.growthWordTextView);
 
         // Add the word Growth to the textview
-        sinWord.setText("Growth");
+        growthWord.setText("Growth");
 
-        // Locate the sinScriptureTextView
-        TextView sinScripture = findViewById(R.id.growthScriptureTextView);
+        // Locate the growthScriptureTextView
+        TextView growthScripture = findViewById(R.id.growthScriptureTextView);
 
-        // Add the scripture reference to the sinScriptureTextView
-        sinScripture.setText("Scripture 1");
+        // Add the scripture reference to the growthScriptureTextView
+        growthScripture.setText("Scripture 1");
 
-        // Locate the sinImageView
-        ImageView sinImage = findViewById(R.id.growthImage);
+        // Locate the growthImageView
+        ImageView growthImage = findViewById(R.id.growthImage);
 
-        // Add the sin image to the sinImageView
-        sinImage.setImageResource(R.drawable.growthimage);
+        // Add the growth image to the growthImageView
+        growthImage.setImageResource(R.drawable.growthimage);
     }
 }

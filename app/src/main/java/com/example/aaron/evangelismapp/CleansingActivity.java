@@ -12,22 +12,22 @@ public class CleansingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cleansing);
 
-        // Locate the SinWordTextView
-        TextView sinWord = findViewById(R.id.cleansingWordTextView);
+        // Locate the cleansingWordTextView
+        TextView cleansingWord = findViewById(R.id.cleansingWordTextView);
 
         // Add the word Cleansing to the textview
-        sinWord.setText("Cleansing");
+        cleansingWord.setText("Cleansing");
 
-        // Locate the sinScriptureTextView
-        TextView sinScripture = findViewById(R.id.cleansingScriptureTextView);
+        // Locate the cleansingScriptureTextView
+        TextView cleansingScripture = findViewById(R.id.cleansingScriptureTextView);
 
-        // Add the scripture reference to the sinScriptureTextView
-        sinScripture.setText("Scripture 1");
+        // Add the scripture reference to the cleansingScriptureTextView
+        cleansingScripture.setText("Scripture 1");
 
-        // Locate the sinImageView
-        ImageView sinImage = findViewById(R.id.cleansingImage);
+        // Locate the cleansingImageView
+        ImageView cleansingImage = findViewById(R.id.cleansingImage);
 
-        // Add the sin image to the sinImageView
-        sinImage.setImageResource(R.drawable.cleansingimage);
+        // Add the cleansing image to the cleansingImageView
+        cleansingImage.setImageResource(R.drawable.cleansingimage);
     }
 }

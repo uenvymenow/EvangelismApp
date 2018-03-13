@@ -12,22 +12,22 @@ public class BloodActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blood);
 
-        // Locate the SinWordTextView
-        TextView sinWord = findViewById(R.id.bloodWordTextView);
+        // Locate the bloodWordTextView
+        TextView bloodWord = findViewById(R.id.bloodWordTextView);
 
-        // Add the word Sin to the textview
-        sinWord.setText("blood");
+        // Add the word blood to the textview
+        bloodWord.setText("blood");
 
-        // Locate the sinScriptureTextView
-        TextView sinScripture = findViewById(R.id.bloodScriptureTextView);
+        // Locate the bloodScriptureTextView
+        TextView bloodScripture = findViewById(R.id.bloodScriptureTextView);
 
-        // Add the scripture reference to the sinScriptureTextView
-        sinScripture.setText("Scripture");
+        // Add the scripture reference to the bloodScriptureTextView
+        bloodScripture.setText("Scripture");
 
-        // Locate the sinImageView
-        ImageView sinImage = findViewById(R.id.bloodImage);
+        // Locate the bloodImageView
+        ImageView bloodImage = findViewById(R.id.bloodImage);
 
-        // Add the sin image to the sinImageView
-        sinImage.setImageResource(R.drawable.bloodimage);
+        // Add the blood image to the bloodImageView
+        bloodImage.setImageResource(R.drawable.bloodimage);
     }
 }

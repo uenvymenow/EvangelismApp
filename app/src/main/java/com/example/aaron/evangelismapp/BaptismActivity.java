@@ -12,22 +12,22 @@ public class BaptismActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_baptism);
 
-        // Locate the SinWordTextView
-        TextView sinWord = findViewById(R.id.baptismWordTextView);
+        // Locate the baptismWordTextView
+        TextView baptismWord = findViewById(R.id.baptismWordTextView);
 
-        // Add the word Sin to the textview
-        sinWord.setText("Baptism");
+        // Add the word Baptism to the textview
+        baptismWord.setText("Baptism");
 
-        // Locate the sinScriptureTextView
-        TextView sinScripture = findViewById(R.id.baptismScriptureTextView);
+        // Locate the baptismScriptureTextView
+        TextView baptismScripture = findViewById(R.id.baptismScriptureTextView);
 
-        // Add the scripture reference to the sinScriptureTextView
-        sinScripture.setText("Scripture 2");
+        // Add the scripture reference to the baptismScriptureTextView
+        baptismScripture.setText("Scripture 2");
 
-        // Locate the sinImageView
-        ImageView sinImage = findViewById(R.id.baptismImage);
+        // Locate the baptismImageView
+        ImageView baptismImage = findViewById(R.id.baptismImage);
 
-        // Add the sin image to the sinImageView
-        sinImage.setImageResource(R.drawable.baptismimage);
+        // Add the baptism image to the baptismImageView
+        baptismImage.setImageResource(R.drawable.baptismimage);
     }
 }

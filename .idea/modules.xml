@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EvangelismApp.iml" filepath="$PROJECT_DIR$/EvangelismApp.iml" />
+      <module fileurl="file://E:\GitHub Repositories\Android Development\Evangelism App\EvangelismApp\EvangelismApp.iml" filepath="E:\GitHub Repositories\Android Development\Evangelism App\EvangelismApp\EvangelismApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\GitHub Repositories\Android Development\Evangelism App\EvangelismApp\app\app.iml" filepath="E:\GitHub Repositories\Android Development\Evangelism App\EvangelismApp\app\app.iml" />
     </modules>
   </component>
 </project>
