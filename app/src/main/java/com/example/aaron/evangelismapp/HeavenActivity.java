@@ -22,7 +22,11 @@ public class HeavenActivity extends AppCompatActivity {
         TextView heavenScripture = findViewById(R.id.heavenScriptureTextView);
 
         // Add the scripture reference to the heavenScriptureTextView
-        heavenScripture.setText("Scripture 1");
+        heavenScripture.setText("'Do not fear what you are about to suffer. Behold, the " +
+                "devil is about to throw some of you into prison, that you may be tested, " +
+                "and for ten days you will have tribulation. Be faithful unto death, and I " +
+                "will give you the crown of life. '\n" +
+                "Revelation 2:10");
 
         // Locate the heavenImageView
         ImageView heavenImage = findViewById(R.id.heavenImage);

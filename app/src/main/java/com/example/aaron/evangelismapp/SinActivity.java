@@ -22,7 +22,8 @@ public class SinActivity extends AppCompatActivity {
         TextView sinScripture = findViewById(R.id.sinScriptureTextView);
 
         // Add the scripture reference to the sinScriptureTextView
-        sinScripture.setText("Scripture 1");
+        sinScripture.setText("'for all have sinned and fall short of the glory of God, \n" +
+                "Romans 3:23");
 
         // Locate the sinImageView
         ImageView sinImage = findViewById(R.id.sinImage);

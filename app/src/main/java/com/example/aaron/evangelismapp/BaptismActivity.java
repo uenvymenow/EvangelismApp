@@ -22,7 +22,10 @@ public class BaptismActivity extends AppCompatActivity {
         TextView baptismScripture = findViewById(R.id.baptismScriptureTextView);
 
         // Add the scripture reference to the baptismScriptureTextView
-        baptismScripture.setText("Scripture 2");
+        baptismScripture.setText("'We were buried therefore with him by baptism into death, in " +
+                "order that, just as Christ was raised from the dead by the glory of the " +
+                "Father, we too might walk in newness of life. '\n" +
+                "Romans 6:4");
 
         // Locate the baptismImageView
         ImageView baptismImage = findViewById(R.id.baptismImage);

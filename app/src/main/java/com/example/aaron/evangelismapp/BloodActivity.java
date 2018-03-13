@@ -22,7 +22,8 @@ public class BloodActivity extends AppCompatActivity {
         TextView bloodScripture = findViewById(R.id.bloodScriptureTextView);
 
         // Add the scripture reference to the bloodScriptureTextView
-        bloodScripture.setText("Scripture");
+        bloodScripture.setText("'but God shows his love for us in that while we were still sinners, Christ died for us. '\n" +
+                "Romans 5:8");
 
         // Locate the bloodImageView
         ImageView bloodImage = findViewById(R.id.bloodImage);

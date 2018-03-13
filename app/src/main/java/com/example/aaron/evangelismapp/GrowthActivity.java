@@ -22,7 +22,10 @@ public class GrowthActivity extends AppCompatActivity {
         TextView growthScripture = findViewById(R.id.growthScriptureTextView);
 
         // Add the scripture reference to the growthScriptureTextView
-        growthScripture.setText("Scripture 1");
+        growthScripture.setText("'But grow in the grace and knowledge of our Lord and " +
+                "Savior Jesus Christ. To him be the glory both now and to the day of " +
+                "eternity. Amen. '\n" +
+                "2 Peter 3:18");
 
         // Locate the growthImageView
         ImageView growthImage = findViewById(R.id.growthImage);

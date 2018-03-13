@@ -22,7 +22,9 @@ public class CleansingActivity extends AppCompatActivity {
         TextView cleansingScripture = findViewById(R.id.cleansingScriptureTextView);
 
         // Add the scripture reference to the cleansingScriptureTextView
-        cleansingScripture.setText("Scripture 1");
+        cleansingScripture.setText("' Purge me with hyssop, and I shall be clean; wash me, " +
+                "and I shall be whiter than snow.'\n" +
+                "Psalms 51:7");
 
         // Locate the cleansingImageView
         ImageView cleansingImage = findViewById(R.id.cleansingImage);
