@@ -46,5 +46,6 @@ public class SinActivity extends AppCompatActivity {
                 startActivity(mainIntent);
             }
         });
+
     }
 }
