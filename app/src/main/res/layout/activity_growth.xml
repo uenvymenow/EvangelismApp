@@ -1,33 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.aaron.evangelismapp.SinActivity">>
+    tools:context="com.example.aaron.evangelismapp.SinActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/growthWordTextView"
-            style="@style/sinHeader"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/sinHeader" />
-
-        <TextView
-            android:id="@+id/growthScriptureTextView"
-            style="@style/sinScripture"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <ImageView
-            android:id="@+id/growthImage"
-            android:layout_width="match_parent"
+            android:id="@+id/backTextView"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:scaleType="fitCenter" />
+            android:gravity="center_horizontal"
+            android:onClick="backButton"
+            android:text="@string/backText" />
 
+        <TextView
+            android:id="@+id/continueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:onClick="continueButton"
+            android:text="@string/continueText" />
     </LinearLayout>
-</ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/growthWordTextView"
+                style="@style/sinHeader"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sinHeader" />
+
+            <TextView
+                android:id="@+id/growthScriptureTextView"
+                style="@style/sinScripture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/growthImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
