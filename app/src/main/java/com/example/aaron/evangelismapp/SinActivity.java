@@ -1,9 +1,13 @@
 package com.example.aaron.evangelismapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.view.View.OnClickListener;
 
 public class SinActivity extends AppCompatActivity {
 
@@ -30,5 +34,19 @@ public class SinActivity extends AppCompatActivity {
 
         // Add the sin image to the sinImageView
         sinImage.setImageResource(R.drawable.sinimage);
+
+        // Access Textview by finding id
+        TextView backBtn = findViewById(R.id.backButton);
+
+        // Create onClickListener
+        backBtn.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bloodActivity = new Intent(SinActivity.this, BloodActivity.class);
+                startActivity(bloodActivity);
+            }
+        });
+
     }
+
 }

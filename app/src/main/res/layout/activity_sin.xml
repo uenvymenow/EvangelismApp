@@ -18,7 +18,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:onClick="backButton"
             android:text="@string/backText" />
 
         <TextView
@@ -26,7 +25,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:onClick="continueButton"
             android:text="@string/continueText" />
     </LinearLayout>
 
