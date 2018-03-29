@@ -18,14 +18,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/backText" />
+            android:text="@string/backText"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"/>
 
         <TextView
             android:id="@+id/continueTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="@string/continueText" />
+            android:text="@string/continueText"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"/>
     </LinearLayout>
 
     <ScrollView

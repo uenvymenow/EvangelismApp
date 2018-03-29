@@ -3,6 +3,7 @@ package com.example.aaron.evangelismapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -36,16 +37,21 @@ public class SinActivity extends AppCompatActivity {
         sinImage.setImageResource(R.drawable.sinimage);
 
         // Access Textview by finding id
-        TextView backBtn = findViewById(R.id.backButton);
+        TextView backTextView = findViewById(R.id.backTextView);
 
         // Create onClickListener
-        backBtn.setOnClickListener(new OnClickListener() {
+        backTextView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent bloodActivity = new Intent(SinActivity.this, BloodActivity.class);
+                Intent bloodActivity = new Intent(SinActivity.this, BloodActivity.class)
+                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(bloodActivity);
             }
         });
+
+        Log.d("EvangelismApp", Log.getStackTraceString(new Exception()));
 
     }
 

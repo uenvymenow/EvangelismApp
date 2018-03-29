@@ -1,0 +1,39 @@
+03-29 00:39:16.012 8129-8129/? I/zygote64: Late-enabling -Xcheck:jni
+03-29 00:39:16.166 8129-8129/com.example.aaron.evangelismapp I/InstantRun: starting instant run server: is main process
+03-29 00:39:16.172 8129-8171/com.example.aaron.evangelismapp D/libEGL: loaded /vendor/lib64/egl/libEGL_adreno.so
+03-29 00:39:16.178 8129-8171/com.example.aaron.evangelismapp D/libEGL: loaded /vendor/lib64/egl/libGLESv1_CM_adreno.so
+03-29 00:39:16.189 8129-8171/com.example.aaron.evangelismapp D/libEGL: loaded /vendor/lib64/egl/libGLESv2_adreno.so
+03-29 00:39:16.325 8129-8193/com.example.aaron.evangelismapp D/OpenGLRenderer: HWUI GL Pipeline
+03-29 00:39:16.352 8129-8193/com.example.aaron.evangelismapp I/Adreno: QUALCOMM build                   : 594927b, I916dfac403
+    Build Date                       : 10/11/17
+    OpenGL ES Shader Compiler Version: EV031.21.02.00
+    Local Branch                     : mybranch28618966
+    Remote Branch                    : quic/gfx-adreno.lnx.6.4.9-rel
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+03-29 00:39:16.357 8129-8193/com.example.aaron.evangelismapp I/Adreno: PFP: 0x005ff087, ME: 0x005ff063
+03-29 00:39:16.361 8129-8193/com.example.aaron.evangelismapp I/zygote64: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 1
+03-29 00:39:16.362 8129-8193/com.example.aaron.evangelismapp I/OpenGLRenderer: Initialized EGL, version 1.4
+03-29 00:39:16.362 8129-8193/com.example.aaron.evangelismapp D/OpenGLRenderer: Swap behavior 2
+03-29 00:39:17.556 8129-8129/com.example.aaron.evangelismapp D/EvangelismApp: java.lang.Exception
+        at com.example.aaron.evangelismapp.SinActivity.onCreate(SinActivity.java:54)
+        at android.app.Activity.performCreate(Activity.java:6999)
+        at android.app.Activity.performCreate(Activity.java:6990)
+        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1214)
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2731)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2856)
+        at android.app.ActivityThread.-wrap11(Unknown Source:0)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1589)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:164)
+        at android.app.ActivityThread.main(ActivityThread.java:6494)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+03-29 00:39:17.586 8129-8139/com.example.aaron.evangelismapp I/zygote64: Do partial code cache collection, code=12KB, data=21KB
+    After code cache collection, code=12KB, data=21KB
+    Increasing code cache capacity to 128KB
+03-29 00:39:17.587 8129-8139/com.example.aaron.evangelismapp I/zygote64: Do partial code cache collection, code=12KB, data=41KB
+    After code cache collection, code=12KB, data=41KB
+    Increasing code cache capacity to 256KB
+    Compiler allocated 7MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
