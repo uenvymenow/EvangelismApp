@@ -1,7 +1,9 @@
 package com.example.aaron.evangelismapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -33,5 +35,27 @@ public class HeavenActivity extends AppCompatActivity {
 
         // Add the heaven image to the heavenImageView
         heavenImage.setImageResource(R.drawable.heavenimage);
+
+        // Access backTextview by finding id
+        TextView backTextView =  findViewById(R.id.backTextView);
+
+        // Create onClickListener
+        backTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
+        // Access continueTextView
+        TextView continueTextView = findViewById(R.id.continueTextView);
+        continueTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bloodActivity = new Intent(HeavenActivity.this, SinActivity.class);
+                startActivity(bloodActivity);
+                finish();
+            }
+        });
     }
 }

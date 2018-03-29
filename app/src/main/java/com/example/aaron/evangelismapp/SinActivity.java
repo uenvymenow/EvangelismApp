@@ -36,23 +36,27 @@ public class SinActivity extends AppCompatActivity {
         // Add the sin image to the sinImageView
         sinImage.setImageResource(R.drawable.sinimage);
 
-        // Access Textview by finding id
-        TextView backTextView = findViewById(R.id.backTextView);
+        // Access backTextview by finding id
+        TextView backTextView =  findViewById(R.id.backTextView);
 
         // Create onClickListener
         backTextView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent bloodActivity = new Intent(SinActivity.this, BloodActivity.class)
-                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
-                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
-                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(bloodActivity);
+                onBackPressed();
             }
         });
 
-        Log.d("EvangelismApp", Log.getStackTraceString(new Exception()));
-
+        // Access continueTextView
+        TextView continueTextView = findViewById(R.id.continueTextView);
+        continueTextView.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bloodActivity = new Intent(SinActivity.this, BloodActivity.class);
+                startActivity(bloodActivity);
+                finish();
+            }
+        });
     }
 
 }
